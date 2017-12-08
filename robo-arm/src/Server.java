@@ -16,6 +16,7 @@ public class Server {
         
     }
     
+    
     private static void init_Server(String input, Scanner sc) {
     	
     	/*create a collector using the target's ip address and start */
