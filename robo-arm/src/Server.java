@@ -12,7 +12,13 @@ public class Server {
         System.out.print("Enter target's IP address: ");
         input = sc.nextLine();
         
-        /*create a collector using the target's ip address and start */
+        init_Server(input, sc);
+        
+    }
+    
+    private static void init_Server(String input, Scanner sc) {
+    	
+    	/*create a collector using the target's ip address and start */
         Collector3 c = new Collector3(input);
         c.start();
         
@@ -28,6 +34,7 @@ public class Server {
         /* stop the system and close scanner */
         c.Stop();
         sc.close();
+    	
     }
 }
 
