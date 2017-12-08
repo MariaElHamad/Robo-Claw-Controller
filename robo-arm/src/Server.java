@@ -12,7 +12,7 @@ public class Server {
         System.out.print("Enter target's IP address: ");
         input = sc.nextLine();
         
-        init_Server(input, sc);
+        init_Server(input, sc);//Call the server initializing method
         
     }
     
