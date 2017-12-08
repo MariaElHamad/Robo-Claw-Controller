@@ -1,6 +1,7 @@
 /*
  * Group F1
  * SYSC 3010
+ *Author: Maria El-Hamad
  */
 #include <Servo.h>
 
